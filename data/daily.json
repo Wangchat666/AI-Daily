@@ -1,0 +1,74 @@
+{
+  "updated_at": "2026-10-28T11:44:30.286Z",
+  "issues": [
+    {
+      "date": "2026-10-27",
+      "intro": "首期归档：来自此前已整理的日报。论文均为预印本，指标为作者报告。",
+      "items": [
+        {
+          "category": "知识产权",
+          "type": "论文",
+          "title": "X-Embedding：多语言专利现有技术检索",
+          "published": "2026-10-21",
+          "summary": "先对齐专利章节和跨语言同族文本，再使用审查报告 X 类引用训练检索相关性。支持 64／1024 维向量。",
+          "detail": "中、英、日集合上，64 维宏平均 Hit@100 为 89.09%。适合研究专利检索与同族数据构建，不等同于撰写质量评估。",
+          "url": "https://arxiv.org/abs/2610.29521"
+        },
+        {
+          "category": "生物医疗",
+          "type": "论文",
+          "title": "证据驱动的多智能体质子放疗规划",
+          "published": "2026-10-21",
+          "summary": "PPO 生成候选计划，规划、对话和评估 Agent 协作调整；规划模型采用 Qwen3-14B + SFT + GRPO。",
+          "detail": "在 21 位患者、50 个选定计划的调整任务上评估。小样本研究，尚不能说明广泛临床有效性。",
+          "url": "https://arxiv.org/abs/2610.29010"
+        },
+        {
+          "category": "生物医疗",
+          "type": "论文",
+          "title": "多智能体协作真的能减少临床幻觉吗？",
+          "published": "2026-10-19",
+          "summary": "比较单模型与三种多智能体结构，覆盖四个模型、三个临床任务，同时评价答案与推理中的幻觉。",
+          "detail": "任务得分提升不保证幻觉降低。适合借鉴事实保持与推理依据的分项评价。",
+          "url": "https://arxiv.org/abs/2610.27027"
+        },
+        {
+          "category": "通用方法",
+          "type": "论文",
+          "title": "让 LLM 文档审查全流程可复现",
+          "published": "2026-10-15",
+          "summary": "对 OCR、切分、向量化、索引、检索和推理逐阶段控制确定性，记录硬件与运行配置。",
+          "detail": "在限定配置下实现逐字节一致输出。可复现不等于判断正确。",
+          "url": "https://arxiv.org/abs/2610.21300"
+        },
+        {
+          "category": "通用方法",
+          "type": "论文",
+          "title": "VERSE：带执行验证的 Harness 自进化",
+          "published": "2026-10-02",
+          "summary": "冻结模型权重，改进执行 Agent 与优化器自身的工具和流程，加入失败回放、修改测试与回归追踪。",
+          "detail": "验证主要在软件工程任务上完成，迁移至专利任务仍需独立实验。",
+          "url": "https://arxiv.org/abs/2610.02616"
+        },
+        {
+          "category": "AI 动态",
+          "type": "新闻",
+          "title": "Anthropic 上市申请与 Meta AI 基础设施融资计划",
+          "published": "2026-10-27",
+          "summary": "香港电台援引路透社报道 Anthropic 上市申请，以及 Meta 最高 950 亿美元融资计划。",
+          "detail": "关注收入与计算成本。融资计划不代表资金已经全部到位。",
+          "url": "https://news.rthk.hk/rthk/en/component/k2/1875430-20261027.htm"
+        },
+        {
+          "category": "知识产权",
+          "type": "新闻",
+          "title": "Elvis Presley 作品权利人起诉 Anthropic",
+          "published": "2026-10-26",
+          "summary": "路透社报道，原告指控未经许可使用作品训练 Claude。",
+          "detail": "诉讼指控不等于法院已经认定侵权。",
+          "url": "https://www.reuters.com/legal/legalindustry/anthropic-sued-over-elvis-songs-used-train-claude-2026-10-26/"
+        }
+      ]
+    }
+  ]
+}
