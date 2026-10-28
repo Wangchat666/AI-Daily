@@ -1,6 +1,84 @@
 {
-  "updated_at": "2026-10-28T11:44:30.286Z",
+  "updated_at": "2026-10-28T11:54:03.415Z",
   "issues": [
+    {
+      "date": "2026-10-28",
+      "intro": "归档自当日上午已生成的日报。论文依据摘要整理，结果为作者报告，尚非全文复核。",
+      "items": [
+        {
+          "category": "AI 动态",
+          "type": "新闻",
+          "title": "Anthropic 公布 AI 药物研发进展",
+          "published": "2026-10-27",
+          "summary": "披露与六家机构合作，涉及抗体设计、先导分子优化与临床试验规划。",
+          "detail": "主要是早期、临床前结果，不能等同于药物临床成功。",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        },
+        {
+          "category": "AI 动态",
+          "type": "新闻",
+          "title": "专家签字不一定意味着独立判断",
+          "published": "2026-10-27",
+          "summary": "对 50 名专业分析师的实验研究 Agent 偏好如何影响人的判断。",
+          "detail": "研究刻意强化 Agent 偏好，不能直接外推到所有真实场景。",
+          "url": "https://www.anthropic.com/research/agents-judgment-calls"
+        },
+        {
+          "category": "AI 动态",
+          "type": "新闻",
+          "title": "苹果发布 M6 iMac",
+          "published": "2026-10-27",
+          "summary": "官方发布内容强调 M6、Siri AI 与 macOS 27 的结合。",
+          "detail": "性能描述来自厂商发布，非独立实测结论。",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/"
+        },
+        {
+          "category": "知识产权",
+          "type": "论文",
+          "title": "PatentAgentBench：专业专利任务的 Agent 基准",
+          "published": "2026-10-26",
+          "summary": "510 个实例、八类任务，涵盖检索、权利要求对照、撰写、审查意见答复和翻译；比较七个 LLM 与四种 Harness。",
+          "detail": "检索不预给候选池。法域、语言与撰写评分覆盖范围仍需全文核对。",
+          "url": "https://arxiv.org/abs/2610.35031"
+        },
+        {
+          "category": "生物医疗",
+          "type": "论文",
+          "title": "ClinVerse：交互式诊断环境",
+          "published": "2026-10-26",
+          "summary": "基于电子病历构建约 15 万诊断案例，模拟六类角色，评估信息获取、检查决策与诊断。",
+          "detail": "轨迹评分可用于训练奖励与评测；模拟环境表现不等于临床有效性。",
+          "url": "https://arxiv.org/abs/2610.34878"
+        },
+        {
+          "category": "通用方法",
+          "type": "论文",
+          "title": "SmoothScore：结论是否超出了证据？",
+          "published": "2026-10-26",
+          "summary": "提取结论性陈述，检索证据并按方面聚类评分，检查综合报告是否抹去冲突与限定条件。",
+          "detail": "作者在七个系统、四个数据集观察到结论强于证据的现象。",
+          "url": "https://arxiv.org/abs/2610.35793"
+        },
+        {
+          "category": "通用方法",
+          "type": "论文",
+          "title": "ACARE：任务上下文感知重排序",
+          "published": "2026-10-26",
+          "summary": "使用 4B LLM，结合原始任务和 Agent 推理上下文进行重排序。",
+          "detail": "作者报告检索改善与搜索次数减少；摘要中的开源计划不代表已经发布。",
+          "url": "https://arxiv.org/abs/2610.35840"
+        },
+        {
+          "category": "通用方法",
+          "type": "论文",
+          "title": "Free to Look, Free to Reason：简单 Harness 的基线价值",
+          "published": "2026-10-26",
+          "summary": "在微服务根因分析的 90 个案例上比较简单 Harness、已有 Agent 与统计和因果方法。",
+          "detail": "简单 Harness 在实验中表现强劲；不可直接外推到专利任务。",
+          "url": "https://arxiv.org/abs/2610.35767"
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "intro": "首期归档：来自此前已整理的日报。论文均为预印本，指标为作者报告。",
